@@ -44,7 +44,17 @@ ex) 부모가 class인데 자식이 Interface인 경우
 인터페이스의 목적
 - 다중 상속을 하기 위해 사용
 
+- Static import -
 
+import static java.lang.System.out;
+import static java.lang.Math.random; 
+import static java.lang.Math.PI; 
+					  //클래스.Static 메소드
+
+//import는 클래스에서 끝난다
+//System이나 Math 같은 경우는 한 단계 더 내려간다
+//Static 메소드까지 내려와서 쓸 수 있다
+//호칭하기를 static import 쓸 때는 import static
 
 
 
